@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans','Alata', sans-serif,;
+    margin: 0;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+:root{
+   font-size: 14px;
+}
+/*==========================================
+      intro
+============================================*/
+.intro{
+    background-image:url(../img/Object.png);
+   /*  height: 100;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.navigation .row{
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 0 0 ;
+}
+.navigation .container{
+    margin: 0 auto;
+    max-width: 1110px;
+}
+.nav-link{
+    color:#fff;
+    margin: 0 15px;
+    font-family: 'Alata';
+    font-weight: 400;
+    font-size: 1.07rem;
+    line-height: 1.78rem;
+}
+.intro-text{
+    display: inline-block;
+    width: 492px;
+    border: 2px solid #FFFFFF;
+    font-family: 'Josefin Sans';
+    color: white;
+    padding: 35px;
+    font-weight: 300;
+    font-size: 4.1rem;
+    line-height: 5rem;
+    text-transform: uppercase;  
+}
+/*======================================
+         Article
+========================================*/
+.article{
+    padding: 25px 0 ;
+    margin: 0 auto;
+}
+
+.article-content{
+    width: 767px;
+    height: 418px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.article-img{
+    width: 550px;
+    
+   
+}
+.column1{
+    position: absolute;
+    left: 410px;
+    top:142px;
+    background-color: #fff;
+    box-shadow: white;
+    width: 344px;
+    border: 2px solid #f2f2f2FF;
+    padding: 20px 0 0 19px;
+}
+.column1 h2{
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 3.4rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+.column1 p {
+    font-family: 'Alata';
+    font-size: 1.02rem;
+    line-height: 1.08rem;
+    color: #000000;
+    opacity: 0.5;
+}
+/*====================================
+             creations
+======================================*/
+.creations {
+ padding: 50px 0;
+}
+.creations .row {
+   flex-wrap: wrap;
+}
+.column2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.column2-img{
+   margin: 5px 10px;
+   position: relative;
+}
+.column2-img img {
+    width: 180px;
+}
+.column2-text{
+    position: absolute;
+    color: #fff;
+    top:247px;
+    left: 19px;
+}
+.creations h2{
+    margin-left: 153px;
+}
+.mobile-format{
+    display: none;
+}
+/*==============================*/
+.footer{
+    background-color: #000000;
+    padding: 40px ;
+   
+}
+.footer .row{
+    display: flex;
+    flex-direction: column;
+}
+.foot-link{
+    color: #fff;
+    margin-top: 20px;
+}
