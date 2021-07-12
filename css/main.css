@@ -147,13 +147,22 @@ a{
 }
 .footer .row{
     display: flex;
-    flex-direction: column;
+   
+    justify-content: space-around;
 }
 .foot-link{
     color: #fff;
-    margin-top: 20px;
+    margin-left: 12px;
 }
 .icon-footer{
-    display: flex;
-    flex-direction: column;
+    display: flex;}
+.foot-iconimg{
+    margin-left: 10px;
 }
+.loopstudios{
+    color: #ffffff;
+    opacity: 0.5;
+    margin-top: 30px;
+    margin-left: -120px;
+}
+    
